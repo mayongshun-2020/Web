@@ -1,0 +1,619 @@
+*{
+  margin:0px;
+  padding:0px;
+    transition: all 1s;
+}
+body{
+    font-size:14px;
+    font-family: "Arial";
+}
+h2{
+    font-size:22px;
+    line-height:80px;
+    color:#800d20;
+    text-shadow: 0px 0px 10px #000;
+    font-family: "Britannic Bold";
+}
+h3{
+    font-size:18px;
+    line-height:40px;
+    color:#800d20;
+    text-shadow: 0px 0px 10px #000;
+    text-indent:30px;
+}
+label,input{
+    display:inline-block;
+    border:0;
+}
+ul li{
+    list-style:none;
+}
+a,img{
+    display:block;
+}
+a{
+    text-decoration:none;
+}
+#content{
+    width:1330px;
+    margin:0px auto;
+    overflow:hidden;
+}
+img.logo{
+    width:auto;
+    height:auto;
+    margin:20px auto;
+}
+/*top style*/
+.top{
+    width:100%;
+}
+.button{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    background:#800d20;
+}
+.button ul li{
+    float:left;
+}
+.button ul li a{
+    color:#fff;
+    padding:0px 15px;
+    font-size:18px;
+}
+.button ul li a:hover{
+    color:#000;
+    text-shadow:0 0 10px #000;
+}
+/*banner style*/
+.banner{
+    width:100%;
+    height:513px;
+    position: relative;
+}
+.banner img{
+    position:absolute;
+}
+.banner ul.btn{
+    position:absolute;
+    bottom:20px;
+    left:30%;
+}
+.banner ul.btn li{
+    float:left;
+    width:100px;
+    height:12px;
+    margin:5px;
+    border-radius:5px;
+    background:#262626;
+    box-shadow:0 0 10px #fff;
+}
+.banner ul.btn li.hot{
+    background:#800d20;
+}
+/*desc style*/
+.desc{
+    width:100%;
+    height:480px;
+}
+.cont{
+    width:100%;
+    height:394px;
+    background:url("../images/img6.png");
+}
+.cont .box{
+    width:35%;
+    height:380px;
+    margin-left:8%;
+}
+.box p{
+    color:#fff;
+    line-height:25px;
+}
+.box a{
+    width:176px;
+    height:42px;
+    background:#800d20;
+    color:#fff;
+    text-align:center;
+    line-height:42px;
+    float:right;
+    margin-top:100px;
+}
+.box a:hover{
+    background:#000;
+}
+/*news style*/
+.news{
+    width:100%;
+}
+.newsub{
+    width:292px;
+    padding-bottom:20px;
+    background:#262626;
+    box-shadow:0 0 10px #000;
+    margin:20px;
+    float:left;
+}
+.newsub p{
+    color:#fff;
+    line-height:20px;
+    font-size:12px;
+   margin-left:30px;
+}
+/*online style*/
+.online{
+    width:100%;
+}
+.online .onbox{
+ width:100%;
+    height:493px;
+    background:url("../images/img13.png");
+    position:relative;
+}
+.onbox h2{
+    position:absolute;
+    top:25%;left:40%;
+    font-size:30px;
+}
+.txtCon{
+    width:460px;
+    height:190px;
+    background:#800d20;
+    position:absolute;
+    top:40%;
+    left:37%;
+    box-shadow:0 0 2px #fff;
+}
+ul.icon{
+    position:absolute;
+    bottom:5%;
+    left:5%;
+}
+ul.icon li{
+    float:left;
+    margin:10px;
+    border:2px solid #800d20;
+    cursor:pointer;
+}
+ul.icon li.hot{
+    border:0px;
+    border:2px solid #fff;
+}
+.onbox .txtCon p{
+    color:#fff;
+    line-height:50px;
+    margin-left:60px;
+    font-size:18px;
+}
+.txtCon p img{
+    display:inline-block;
+    width:30px;height:30px;
+}
+/*ticket style*/
+.ticket{
+    width:100%;
+    height:600px;
+    overflow:hidden;
+}
+.tickcon{
+    width:100%;
+    height:560px;
+    background:url(../images/img15.png);
+}
+form h2{
+   margin-left:20%;
+    color:#fff;
+}
+form p{
+    line-height:35px;
+    margin-left:12%;
+    color:#fff;
+    margin-bottom:20px;
+}
+form p label{
+    width:150px;
+    height:35px;
+}
+input[type=text]{
+    width:250px;
+    height:30px;
+    border-radius:2px;
+}
+input[type=textarea]{
+    width:250px;
+    height:70px;
+    border-radius:2px;
+}
+input.btn{
+width:143px;
+height:36px;
+background:#800d20;
+border-radius:2px;
+    color:#fff;
+    cursor:pointer;
+    margin:10px;
+    font-weight:bold;
+}
+input.btn:hover{
+    background:#000;
+}
+input.b2{
+    background:#695a5a;
+}
+/*map style*/
+.map{
+    width:100%;
+    height:452px;
+    margin-left:15px;
+}
+.map .left{
+    float:left;
+    margin-right:20px;
+}
+.map .right{
+    float:left;
+}
+.map .time{
+    width:570px;
+    height:207px;
+    background:url(../images/img18.png);
+}
+.timespan{
+    font-size:20px;
+    color:#fff;
+    display:block;
+    margin-left:40%;
+    line-height:200px;
+}
+/*footer style*/
+.footer{
+    width:100%;
+    height:150px;
+    background:#262626;
+}
+.footer div{
+    float:left;
+}
+.footer .logo{
+    margin-top:50px;
+}
+.footer .copy{
+    width:50%;
+    margin:15px auto;
+}
+.copy .button{
+    background:#262626;
+    margin-left:125px;
+}
+.copy .button ul li a:hover{
+    color:#800d20;
+}
+.copy p{
+   line-height:30px;
+    text-align:center;
+    color:#fff;
+}
+.footer .seo{
+    margin-top:50px;
+}
+/*silder style*/
+.silder{
+    width:35px;
+    height:100%;
+    background:red;
+    position:fixed;right:0px;top:0px;
+    overflow:hidden;
+}
+.silder .best{
+    width:37px;
+    height:100%;
+    background:#000;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:88;
+
+}
+.best a{
+    margin-top:250px;
+}
+.best a:hover{
+    box-shadow:0 0 10px red;
+}
+.silder .box{
+    width:225px;
+    height:100%;
+    background:#ddd;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+/*768 style*/
+@media only screen and (max-width:768px){
+    img{
+        width:100%;
+        height:auto;
+    }
+    #content{
+        width:768px;
+    }
+    .banner{
+        height:300px;
+    }
+    .desc{
+        height:420px;
+    }
+    .cont{
+        width:100%;
+        height:380px;
+        background:url("../images/img6.png");
+        background-size:100% 100%;
+    }
+    .cont .box{
+        width:50%;
+        height:320px;
+        margin-left:5%;
+    }
+    .box a{
+        margin-top:50px;
+    }
+    /*news style*/
+    .newsub{
+        margin:25px;
+    }
+    /*online style*/
+    .online .onbox{
+        height:403px;
+        background-size:100% 100%;
+    }
+    .onbox h2{
+        top:25%;left:40%;
+        font-size:20px;
+        line-height:15px;
+    }
+    .txtCon{
+        width:50%;
+        height:30%;
+        top:30%;
+        left:30%;
+    }
+    ul.icon{
+        position:absolute;
+        bottom:2%;
+        left:15%;
+    }
+    ul.icon li{
+        float:left;
+        margin:8px;
+    }
+    .onbox .txtCon p{
+        line-height:25px;
+        margin-left:60px;
+        font-size:16px;
+    }
+    /*map style*/
+    .map{
+        height:852px;
+        margin-left:15px;
+    }
+    .map .right{
+        margin-left:40px;
+    }
+    /*footer style*/
+    .footer{
+        height:350px;clear:both;
+    }
+    .footer  img{
+        width:auto;height:auto;
+        margin:0px auto;
+    }
+    .footer div{
+        width:100%;
+    }
+    .copy .button{
+        margin-left:40%;
+        width:760px;
+    }
+    .copy p{
+        line-height:30px;
+        margin-left:75%;
+    }
+    .footer .seo{
+        margin-top:50px;
+    }
+}
+
+
+/*480 style*/
+@media only screen and (max-width:480px){
+    h3{font-size:10px;
+        line-height:12px;
+        text-indent:10px;
+    }
+    body{
+        font-size:10px;
+    }
+    #content{
+        width:480px;
+    }
+    .button{
+        height:30px;
+        line-height:30px;
+    }
+    .button ul li a{
+        font-size:10px;
+    }
+    .banner{
+        height:100px;
+		position:relative;
+    }
+    img.logo{
+        width:200px;height:auto;
+    }
+   /*banner style*/
+.banner{   
+    height:100px;   
+}
+.banner ul.btn{
+    position:absolute;
+    bottom:-80px;
+    left:30%;
+}
+.banner ul.btn li{   
+    width:30px;
+    height:5px;
+    margin:2px;   
+}
+
+    .desc{       
+		margin:100px auto;
+		height:180px;
+    }
+    .cont{
+        width:100%;
+        height:220px;        
+    }
+    .cont .box{
+        width:90%;
+        height:220px;
+        margin-left:2%;		
+    }
+    .box a{
+        margin-top:0px;
+    }
+    /*news style*/
+    .newsub{
+        width:40%;
+        margin:5px;
+    }
+
+    .newsub p{
+        line-height:12px;
+        font-size:8px;
+        margin-left:5px;
+    }
+    /*online style*/
+    .online .onbox{
+        height:200px;
+        background-size:100% 100%;
+    }
+    .onbox h2{
+        display:none;
+    }
+    .txtCon{
+        width:50%;
+        height:40%;
+        top:27%;
+        left:25%;
+    }
+    ul.icon{
+        width:60%;
+		bottom:2%;
+        left:23%;
+    }
+    ul.icon li{
+        width:40px;
+        height:20px;
+        float:left;
+        margin:3px;
+    }
+    .onbox .txtCon p{
+        line-height:12px;
+        margin-left:5px;
+        font-size:8px;
+    }
+    /*ticket style*/
+    .ticket{
+        width:100%;
+        height:400px;
+        overflow:hidden;
+    }
+    .tickcon{
+        width:100%;
+        height:560px;
+        background:url(../images/img15.png);
+    }
+    form h2{
+        margin-left:20%;
+        color:#fff;
+    }
+    form p{
+        margin-left:12%;
+        color:#fff;
+        margin-bottom:2px;
+    }
+    form p label{
+        width:100px;
+        height:25px;
+    }
+    input[type=text]{
+        width:200px;
+        height:20px;
+        border-radius:2px;
+    }
+    input[type=textarea]{
+        width:200px;
+        height:60px;
+    }
+    input.btn{
+        width:80px;
+        height:20px;
+        font-size:10px;
+    }
+    input.btn:hover{
+        background:#000;
+    }
+    /*map style*/
+    .map{
+        width:100%;
+        height:452px;
+        margin-left:5px;
+    }
+    .map .left{
+        float:left;       
+    }
+    .map .right{
+        float:left;
+		margin-left:5px;
+    }
+    .map .time{
+        width:90%;
+        height:150px;
+        background:url(../images/img18.png);
+        background-size:100% 100%;
+    }
+    .timespan{
+        font-size:20px;
+        color:#fff;
+        display:block;
+        margin-left:40%;
+        line-height:150px;
+    }
+    /*footer style*/
+    .footer{
+        height:250px;
+    }
+    .footer  img{
+        width:40%;height:auto;
+        margin:0px auto;
+    }
+    .footer div{
+        width:100%;
+    }
+    .copy .button{
+        margin-left:60%;
+        width:300px;
+    }
+    .copy .button ul li a{
+        padding:0px 2px;
+    }
+    .copy p{
+        line-height:30px;
+        margin-left:60%;
+    }
+    .footer .seo{
+        margin-top:20px;
+    }
+}

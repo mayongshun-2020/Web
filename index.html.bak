@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div id="content">
+   <!--top-->
+   <div class="top">
+    <img src="images/a1.png"/>
+   </div>
+   <div class="button">
+    <ul>
+	 <li><a href="#">Home</a></li>
+	 <li><a href="#">Brands</a></li>
+	 <li><a href="#">Historys</a></li>
+	 <li><a href="#">Storys</a></li>
+	 <li><a href="#">About Me</a></li>
+	</ul>
+   </div>
+   <!--top-->
+   <!--banner-->
+   <div class="banner">
+    <img src="images/a4.png"/>
+	<img src="images/a3.png"/>
+	<img src="images/a2.png"/>
+     <ul>
+	  <li class="hot"></li>
+	  <li></li>
+	  <li></li>
+	 </ul>
+   </div>
+   <!--banner-->
+   <!--news-->
+   <div class="news">
+    <img src="images/a5.png" class="logo">
+	<div class="newsSub">
+	 <img src="images/a6.png"/>
+	 <div class="box">
+	  <h2>A Look at Spring</h2>
+	  <p>View times:17:51</p>
+	  <p>Published date:2019-03-21</p>
+	  <p>Author:cbdyma</p>
+	  <p>Description:</p>
+	  <p>A Look at Spring 2018's Attention-Grabbing Runways Technology Is Coming</p>
+	 </div>
+	</div>
+
+	<div class="newsSub">
+	 <img src="images/a7.png"/>
+	 <div class="box">
+	  <h2>A Look at Spring</h2>
+	  <p>View times:17:51</p>
+	  <p>Published date:2019-03-21</p>
+	  <p>Author:cbdyma</p>
+	  <p>Description:</p>
+	  <p>A Look at Spring 2018's Attention-Grabbing Runways Technology Is Coming</p>
+	 </div>
+	</div>
+
+	<div class="newsSub">
+	 <img src="images/a8.png"/>
+	 <div class="box">
+	  <h2>A Look at Spring</h2>
+	  <p>View times:17:51</p>
+	  <p>Published date:2019-03-21</p>
+	  <p>Author:cbdyma</p>
+	  <p>Description:</p>
+	  <p>A Look at Spring 2018's Attention-Grabbing Runways Technology Is Coming</p>
+	 </div>
+	</div>
+
+	<div class="newsSub">
+	 <img src="images/a9.png"/>
+	 <div class="box">
+	  <h2>A Look at Spring</h2>
+	  <p>View times:17:51</p>
+	  <p>Published date:2019-03-21</p>
+	  <p>Author:cbdyma</p>
+	  <p>Description:</p>
+	  <p>A Look at Spring 2018's Attention-Grabbing Runways Technology Is Coming</p>
+	 </div>
+	</div>
+   </div>
+   <!--news-->
+   <!--online-->   
+   <div class="online">
+    <img src="images/a10.png" class="logo">
+	<div class="onbg">
+	 <h2>Sponsors Online exhibition</h2>
+	 <div class="on_banner">
+	  <div class="text">
+	   <p>Vehicle name:ford</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford2</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford3</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford4</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford5</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford6</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford7</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford8</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford9</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <div class="text">
+	   <p>Vehicle name:ford10</p>
+	   <p>special release</p>
+	   <p>Company name</p>
+	   <p>Vehicle model</p>
+	  </div>
+
+	  <!--button-->
+	  <ul>
+	   <li class="on"><img src="images/car1.png"></li>
+	   <li><img src="images/car2.png"></li>
+	   <li><img src="images/car3.png"></li>
+	   <li><img src="images/car4.png"></li>
+	   <li><img src="images/car5.png"></li>
+	   <li><img src="images/car6.png"></li>
+	   <li><img src="images/car7.png"></li>
+	   <li><img src="images/car8.png"></li>
+	   <li><img src="images/car9.png"></li>
+	   <li><img src="images/car10.png"></li>
+	  </ul>
+	 </div>
+	</div>
+   </div>
+   <!--online-->
+  </div>
+
+  <script src="jQuery/jquery-3.2.1.min.js"></script>
+  <script>
+   var index=0;
+   $('.onbg ul li').hover(function(){
+    $(this).addClass('on').siblings().removeClass('on');
+	index=$(this).index();
+	alert(index);
+   },function(){});
+  </script>
+ </body>
+</html>
